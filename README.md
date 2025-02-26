@@ -1,5 +1,5 @@
 <font size="5"><strong>A GCN-LSTM Based on Adaptive Number of Layers for Reconstructing Temporal Gene Regulatory Networks</strong></font>
-![image][(https://github.com/jhjsagcdjks1/GCN-LSTM/blob/main/Framework.png)]
+![image](https://github.com/jhjsagcdjks1/GCN-LSTM/blob/main/Framework.png)
 ***
 **Dependencies**
 • 'networkx==2.2'；  
