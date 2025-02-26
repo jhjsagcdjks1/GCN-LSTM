@@ -1,5 +1,5 @@
-<font size="5"><strong>一种基于自适应层数的GCN-LSTM重构时序基因调控网络</strong></font>
-![image](https://github.com/jhjsagcdjks1/GAEDGRN/blob/master/GAEDGRN/Framework.png)
+<font size="5"><strong>A GCN-LSTM Based on Adaptive Number of Layers for Reconstructing Temporal Gene Regulatory Networks</strong></font>
+![image][(https://github.com/jhjsagcdjks1/GCN-LSTM/blob/main/Framework.png)]
 ***
 **Dependencies**
 • 'networkx==2.2'；  
