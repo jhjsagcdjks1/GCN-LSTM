@@ -1,4 +1,4 @@
-<font size="5"><strong>Reconstruction of gene regulatory networks based on gravity-inspired graph autoencoders</strong></font>
+<font size="5"><strong>一种基于自适应层数的GCN-LSTM重构时序基因调控网络</strong></font>
 ![image](https://github.com/jhjsagcdjks1/GAEDGRN/blob/master/GAEDGRN/Framework.png)
 ***
 **Dependencies**
@@ -11,7 +11,7 @@
 **Usage**
 Preparing for gene expression profiles and gene-gene adjacent matrix
 
-GAEDGRN integrates gene expression matrix (N×M) with prior gene topology (N×N) to learn low-dimensional vertorized representations with supervision.Convert the gene expression matrix and prior gene topology into the `.npz` format as shown in the demo, and then run them in the GAEDGRN model.
+The GCN-LSTM model integrates gene expression matrices (N×M) across n time points with prior gene topology (N×N) to learn low-dimensional vectorized representations at each time point under supervised learning conditions, and to generate gene features for the next time point. By converting the prior gene topology into the `.npz` format as shown in the example and running it in the GCN-LSTM model, the gene regulatory network for the next time point can be obtained.
 
-Command to run GAEDGRN
+Command to run GCN-LSTM
  python main.py
